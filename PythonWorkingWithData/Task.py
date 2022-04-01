@@ -36,7 +36,7 @@
 
 ################################################################################################################
 
-#quote daxilində necə hərf olduğunu tapın link
+#quote daxilində necə hərf olduğunu tapın
 
 #quote = "Programming isn't about what you know; it's about what you can figure out."
 
@@ -55,3 +55,33 @@
 #quote = "Programming isn't about what you know; it's about what you can figure out"
 #counter = Counter(quote)
 #print(counter['o']) 
+
+
+################################################################################################################
+
+#list-i tərs çevirərək ekrana çap edin
+
+#nums=[23,56,78,100,14,70,300,236]
+
+#nums.reverse()
+
+#print('Ters_cevirilmis:', nums)
+
+
+
+################################################################################################################
+
+nums=[23,56,78,100,14,70,300,236]
+
+def ikiliededleritapin():
+    for eded in nums:
+     if eded>10 and eded<100:
+            print(eded)
+ikiliededleritapin()
+            
+
+
+
+
+
+
